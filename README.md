@@ -1,24 +1,6 @@
-# README
+## User Stories
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+-   [ ] User can select the measurement system calculations will be performed in - Metric or English
+-   [x] User can enter the actual temperature and the wind speed
+-   [x] User can press the `Calculate` button to display the wind chill
+-   [ ] User will receive an error message when `Calculate` is clicked if data values are not entered
