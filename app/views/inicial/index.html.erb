@@ -1,7 +1,10 @@
+<div class="row justify-content-center">
 
- <div class="row justify-content-center">
+
+<div class="boder">
 <h1>Wind Child</h1>
 <h4>Calculate the windchill factor from an actual temperature</h4>
+
 
 <%= form_with(url: "/calculo", method: "get", remote: true) do %>
 
@@ -10,7 +13,7 @@
     <input class="form-control col-md-6" id="temperatra" name="temperature">
     <h3> Winds speed (km/h): </h3>
     <input class="form-control col-md-6" id="wind_speed" name="wind_speed">
-    <button type="submit" class="btn btn-warning" id="calculo">Submit</button>
+    <button type="submit" class="btn btn-secondary" id="calculo">Submit</button>
 
     <div id="res"></div>
   </div>

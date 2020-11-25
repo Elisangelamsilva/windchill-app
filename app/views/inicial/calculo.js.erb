@@ -1,10 +1,9 @@
 
-
 var res = document.querySelector("#res");
 <% if @resultado %>
-  res.innerHTML = <%= @resultado.round(2) %>
+  res.innerHTML = ` Thermal sensation, Celsius: <%= @resultado.round(2) %> `
 <% else %>
-  res.innerHTML += `<p> É necessario adicionar valores.</p>`  
+  res.innerHTML += ` É necessario adicionar valores.`  
 <% end %>  
 
 
