@@ -1,5 +1,10 @@
 
 
-const res = document.querySelector("#res");
-res.innerHTML = <%= @resultado.round(2) %>
+var res = document.querySelector("#res");
+<% if @resultado %>
+  res.innerHTML = <%= @resultado.round(2) %>
+<% else %>
+  res.innerHTML += `<p> É necessario adicionar valores.</p>`  
+<% end %>  
+
 
